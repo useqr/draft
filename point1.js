@@ -5,8 +5,8 @@ var homeAnchor = $("<a>").attr("href","//"+zones+Base64.decode("cmVhbG0uaW1nbGUu
 $.getJSON(Base64.decode("Ly9wb3J0YWxyZWFsbS5pbWdsZS54eXovZGF0YS8=")+idcode.toUpperCase()+".json", function(data) {
   for (var i = 0; i < data.token.length; i++) {
     var anchor = $("<a>").attr("href", "//"+zones+Base64.decode("cmVhbG0uaW1nbGUueHl6L3Y/dG9rZW49")+data.token[i].replace("AD6v5d","")+"&j="+idcode+"&p="+(i+1)).text("Part "+(i+1));
-	var linkad = $("<a>").attr("href", "//google.com"); linkad.attr("id", "linkAd");
-	var imgads = $("<img>").attr("src", "//lh3.googleusercontent.com/-1EE61Dz-Sek/WbmHjmAjH_I/AAAAAAAANvI/kgypKsb_g4481KQTyH0SeLQPPu6KfK3QQCLcBGAs/s320-rw/infiniteamp2.png"); linkad.append(imgads);
+	var linkad = $("<a>").attr("href", "//288.cdn-lb.com/url/alpatoto"); linkad.attr("id", "linkAd"); linkad.attr("rel", "nofollow");
+	var imgads = $("<img>").attr("src", "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3vo_85zcfWwKIGF__3sJcGgTbDGcUZh3UULC35hU3Kw6afb-tsMdthWhHsYOFir2mggTKc-fXjoDOPFsKcUADLRX7UCZvIrn_b4qOVFGBvo-kee97mOxw6N1DN458RbFffyFhCJMx8uVyuYIyZuw99He8V6FFl8sIb9L_Ai730Orc4GNrLgXvKPKoMw/s320-rw/alpa.gif"); linkad.append(imgads);
 	if (i == 2) {
 		$("#post-ctr").append(anchor); $("#post-ctr").append("<br>");
 		$("#post-ctr").append(linkad); $("#post-ctr").append("<br>");
