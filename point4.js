@@ -9,7 +9,7 @@ $.getJSON(Base64.decode("Ly9wb3J0YWxyZWFsbS5pbWdsZS54eXovZGF0YS8=")+idcode.toUpp
 	var imgads = $("<img>").attr("src", "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3vo_85zcfWwKIGF__3sJcGgTbDGcUZh3UULC35hU3Kw6afb-tsMdthWhHsYOFir2mggTKc-fXjoDOPFsKcUADLRX7UCZvIrn_b4qOVFGBvo-kee97mOxw6N1DN458RbFffyFhCJMx8uVyuYIyZuw99He8V6FFl8sIb9L_Ai730Orc4GNrLgXvKPKoMw/s320-rw/alpa.gif"); linkad.append(imgads);
 	//insta  
 	var linkig = $("<a>").attr("href", "//instagram.com/ig_apemanget"); linkig.attr("id", "linkAd"); linkig.attr("rel", "nofollow");
-	var promot = $("<img>").attr("src", "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidSGdnt8l0ftWALJJZKQx6HD_xBjpmegTBBH-QuXWb1kLuPrR-HEV0KXvDagN7vSFduHq-JV4SztqG-JuFUyJlTADcIYhUoLWzcszKoZ5g81G_EpKAlRxpanWaLirzWohNIm5x0pE2xRVL9SvUfMGEo6TP2EhGWw5Dgg9LMf-usk1p-WVVyHL5eizkqg/s320-rw/ig_apemanget.jpg"); linkig.append(promot);
+	var promot = $("<img>").attr("src", "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidSGdnt8l0ftWALJJZKQx6HD_xBjpmegTBBH-QuXWb1kLuPrR-HEV0KXvDagN7vSFduHq-JV4SztqG-JuFUyJlTADcIYhUoLWzcszKoZ5g81G_EpKAlRxpanWaLirzWohNIm5x0pE2xRVL9SvUfMGEo6TP2EhGWw5Dgg9LMf-usk1p-WVVyHL5eizkqg/s1-rw/ig_apemanget.jpg"); linkig.append(promot);
 	  
 	if (i == 2) {
 		$("#post-ctr").append(anchor); $("#post-ctr").append("<br>");
