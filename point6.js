@@ -16,7 +16,7 @@ $.getJSON(Base64.decode("Ly9wb3J0YWxyZWFsbS5pbWdsZS54eXovZGF0YS8=")+idcode.toUpp
 		$("#post-ctr").append(linkad); $("#post-ctr").append("<br>");
 //	} else if (i == 5 || i == 8 || i == 11 || i == 14 || i == 17) {
 		//isi
-	} else if (i == data.token.length) {
+	} else if (i == data.token.length - 1) {
 		$("#post-ctr").append(anchor); $("#post-ctr").append("<br>");
 		$("#post-ctr").append(linkig); $("#post-ctr").append("<br>");		
 	} else {
