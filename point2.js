@@ -1,4 +1,4 @@
-var world = ["void", "first"]; var zones = world[Math.floor(Math.random() * world.length)];
+var world = ["last", "first"]; var zones = world[Math.floor(Math.random() * world.length)];
 var idcode = window.location.href.replace('?fbclid=','@').replace('&fbclid=','@').replace(/@.+/,'').replace(/.+id?=/,"").replace("&m=1","");
 var homeAnchor = $("<a>").attr("href","//"+zones+Base64.decode("cmVhbG0uaW1nbGUueHl6Lz9jb2RlPQ==")+idcode).text("KOLEKSI LENGKAP");
 
