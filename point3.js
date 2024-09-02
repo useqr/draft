@@ -2,7 +2,7 @@ var world = ["last", "first"]; var zones = world[Math.floor(Math.random() * worl
 var idcode = window.location.href.replace('?fbclid=','@').replace('&fbclid=','@').replace(/@.+/,'').replace(/.+id?=/,"").replace("&m=1","");
 var homeAnchor = $("<a>").attr("href","//"+zones+Base64.decode("cmVhbG0uaW1nbGUueHl6Lz9jb2RlPQ==")+idcode).text("KOLEKSI LENGKAP");
 
-$.getJSON(Base64.decode("Ly9wb3J0YWxyZWFsbS5pbWdsZS54eXovZGF0YS8=")+idcode.toUpperCase()+".json", function(data) {
+$.getJSON(Base64.decode("Ly9wb3J0YWwycmVhbG0uaW1nbGUueHl6L2RhdGEv")+idcode.toUpperCase()+".json", function(data) {
   for (var i = 0; i < data.token.length; i++) {
     var anchor = $("<a>").attr("href", "//"+zones+Base64.decode("cmVhbG0uaW1nbGUueHl6L3Y/dG9rZW49")+data.token[i].replace("AD6v5d","")+"&j="+idcode+"&p="+(i+1)).text("Part "+(i+1));
 	var linkad = $("<a>").attr("href", "//instagram.com/ig_apemanget"); linkad.attr("id", "linkAd"); linkad.attr("rel", "nofollow");
