@@ -6,7 +6,7 @@ $.getJSON(Base64.decode("Ly9wb3J0YWwycmVhbG0uaW1nbGUueHl6L2RhdGEv")+idcode.toUpp
   for (var i = 0; i < data.token.length; i++) {
     var anchor = $("<a>").attr("href", "//"+zones+Base64.decode("cmVhbG0uaW1nbGUueHl6L3Y/dG9rZW49")+data.token[i].replace("AD6v5d","")+"&j="+idcode+"&p="+(i+1)).text("Part "+(i+1));
 	var linkad = $("<a>").attr("href", "//288.cdn-lb.com/url/leobola"); linkad.attr("id", "linkAd"); linkad.attr("rel", "nofollow");
-	var imgads = $("<img>").attr("src", "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgD6Ey5qgrP6taWzi6d-ZZ5-udemp_6RcfjUHmDwpC-rHsgiHweK24NUL_db6UsNnJ3090T-e1qEVxCQMhri6C2rr6iQsoy0mVQ_3Hz09_w6bPriEWpJ2HE-2PdmBK4GrTiVkAzVrnYN-Gq7nW2C_ldcVL2tcR4Si_Bj2ZBcXcVDUxsWR6Nhqk1GyKOJA/s320-rw/720x90.jpg"); linkad.append(imgads);
+	var imgads = $("<img>").attr("src", "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgD6Ey5qgrP6taWzi6d-ZZ5-udemp_6RcfjUHmDwpC-rHsgiHweK24NUL_db6UsNnJ3090T-e1qEVxCQMhri6C2rr6iQsoy0mVQ_3Hz09_w6bPriEWpJ2HE-2PdmBK4GrTiVkAzVrnYN-Gq7nW2C_ldcVL2tcR4Si_Bj2ZBcXcVDUxsWR6Nhqk1GyKOJA/s320/hjkbaskdy.gif"); linkad.append(imgads);
 	//insta  
 	var linkig = $("<a>").attr("href", "//instagram.com/ig_apemanget"); linkig.attr("id", "linkAd"); linkig.attr("rel", "nofollow");
 	var promot = $("<img>").attr("src", "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidSGdnt8l0ftWALJJZKQx6HD_xBjpmegTBBH-QuXWb1kLuPrR-HEV0KXvDagN7vSFduHq-JV4SztqG-JuFUyJlTADcIYhUoLWzcszKoZ5g81G_EpKAlRxpanWaLirzWohNIm5x0pE2xRVL9SvUfMGEo6TP2EhGWw5Dgg9LMf-usk1p-WVVyHL5eizkqg/s320-rw/ig_apemanget.jpg"); linkig.append(promot);
