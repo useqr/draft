@@ -8,8 +8,8 @@ $.getJSON(Base64.decode("Ly9wb3J0YWwycmVhbG0uaW1nbGUueHl6L2RhdGEv")+idcode.toUpp
 	var linkad = $("<a>").attr("href", "#"); linkad.attr("id", "linkAd"); linkad.attr("rel", "nofollow");
 	
 	//insta  
-	var linkig = $("<a>").attr("href", "//instagram.com/ig_apemanget"); linkig.attr("id", "linkAd"); linkig.attr("rel", "nofollow");
-	var promot = $("<img>").attr("src", "//blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidSGdnt8l0ftWALJJZKQx6HD_xBjpmegTBBH-QuXWb1kLuPrR-HEV0KXvDagN7vSFduHq-JV4SztqG-JuFUyJlTADcIYhUoLWzcszKoZ5g81G_EpKAlRxpanWaLirzWohNIm5x0pE2xRVL9SvUfMGEo6TP2EhGWw5Dgg9LMf-usk1p-WVVyHL5eizkqg/s320-rw/ig_apemanget.jpg"); linkig.append(promot);
+	var linkig = $("<a>").attr("href", "#"); linkig.attr("id", "linkAd"); linkig.attr("rel", "nofollow");
+	
 	  
 	if (i == 2) {
 		$("#post-ctr").append(anchor); $("#post-ctr").append("<br>");
